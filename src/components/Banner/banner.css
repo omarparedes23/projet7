@@ -1,0 +1,71 @@
+.banneraccueil {
+	margin-top: 68px;
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+	border-radius: 25px;
+	height: 223px;
+	margin-bottom: 0px;
+	position: relative;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('../../assets/banneraccueil.png');
+}
+
+.bannerapropos {
+	margin-top: 44px;
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+	border-radius: 25px;
+	height: 223px;
+	margin-bottom: 0px;
+	position: relative;
+	background: url('../../assets/bannerapropos.png');
+	max-width: 100%;
+}
+
+.banner-texte-container {
+	position: absolute;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 37%;
+	width: 100%;
+}
+
+.banner-texte {
+	color: #ffffff;
+	font-size: clamp(21px, 4.1vw, 48px);
+	font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+	.banneraccueil {
+		border-radius: 25px;
+		margin-bottom: 0px;
+		position: relative;
+		height: 111px;
+		background: url('../../assets/banneraccueilmobile.png');
+		background-blend-mode: darken;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		margin-top: 16px;
+	}
+
+	.bannerapropos {
+		border-radius: 25px;
+		height: 223px;
+		margin-bottom: 0px;
+		position: relative;
+		background: url('../../assets/banneraproposmobile.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		margin-top: 20px;
+	}
+}

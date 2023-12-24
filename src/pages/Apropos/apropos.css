@@ -1,0 +1,24 @@
+.apropos {
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+	margin-top: 0px;
+}
+
+.apropos_main {
+	margin-bottom: 0px;
+	margin-left: 8.7%;
+	margin-right: 8.7%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 31px;
+}
+
+@media screen and (max-width: 650px) {
+	.apropos {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+		margin-top: 0px;
+	}
+}

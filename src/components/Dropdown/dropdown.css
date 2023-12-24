@@ -1,0 +1,81 @@
+.aproposdropdown {
+	background-color: #f7f7f7;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin: 0 auto;
+}
+
+.logementdropdown {
+	background-color: #f7f7f7;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin: 0 auto;
+}
+
+.aproposdropdown_title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: clamp(13px, 3vw, 24px);
+	background-color: #ff6060;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 5px;
+	margin-top: 0;
+	padding-top: 5.61px;
+	padding-bottom: 7.39px;
+	padding-left: 18.08px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.logementdropdown_title {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	font-size: clamp(13px, 3vw, 18px);
+	background-color: #ff6060;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 10px;
+	margin-top: 0;
+	padding-top: 5.61px;
+	padding-bottom: 7.39px;
+	padding-left: 18.08px;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.aproposdropdown_text {
+	font-size: clamp(12px, 3vw, 24px);
+	font-weight: 400;
+	line-height: 142.6%;
+	font-style: normal;
+	padding: 10px;
+	margin: 0 auto;
+	color: #ff6060;
+}
+
+.logementdropdown_text {
+	font-size: clamp(12px, 3vw, 18px);
+	font-weight: 400;
+	line-height: 142.6%;
+	font-style: normal;
+	padding: 10px;
+	margin: 0 auto;
+	color: #ff6060;
+}
+
+.fleche {
+	width: 24px;
+	height: 13px;
+}
+
+@media screen and (max-width: 650px) {
+	.fleche {
+		width: 16px;
+		height: 9px;
+	}
+}

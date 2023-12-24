@@ -1,0 +1,69 @@
+.carrousel {
+	position: relative;
+	display: flex;
+	border-radius: 25px;
+	margin-top: 25.7px;
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+	height: 415px;
+	background-position: center;
+	background-size: cover;
+}
+
+.vectorright {
+	position: absolute;
+	top: 149.23px;
+	right: 1.88%;
+	height: 79.2px;
+	width: 46.68px;
+}
+
+.vectorleft {
+	position: absolute;
+	top: 149.23px;
+	left: 1.88%;
+	height: 79.2px;
+	width: 46.68px;
+}
+
+.imagecount {
+	position: absolute;
+	top: 83%;
+	left: 49%;
+	color: white;
+
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+@media all and (max-width: 600px) {
+	.carrousel {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		height: 255px;
+	}
+
+	.vectorright {
+		position: absolute;
+		top: 118.1px;
+		right: 1.74%;
+		height: 19.8px;
+		width: 3.48%;
+	}
+
+	.vectorleft {
+		position: absolute;
+		top: 118.1px;
+		left: 1.74%;
+		height: 19.8px;
+		width: 3.48%;
+	}
+
+	.imagecount {
+		top: 80%;
+		display: none;
+	}
+}

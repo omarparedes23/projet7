@@ -1,0 +1,32 @@
+footer {
+	background-color: #000000;
+	margin-top: 100px;
+	height: 209px;
+	position: relative;
+}
+
+#conteneurfooter {
+	display: flex;
+	flex-direction: column;
+	height: 209px;
+	padding-top: 66px;
+	padding-bottom: 29px;
+}
+
+#conteneurfooter img {
+	margin: auto;
+}
+
+#conteneurfooter p {
+	text-align: center;
+	font-size: clamp(12px, 4vw, 24px);
+	font-weight: 500;
+	font-style: normal;
+	color: #ffffff;
+}
+
+@media all and (max-width: 767px) {
+	footer {
+		margin-top: 20px;
+	}
+}

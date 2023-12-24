@@ -1,0 +1,29 @@
+.cardcomponent {
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 340px;
+}
+
+.cardcomponent img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 10px;
+}
+
+.cardcomponent h3 {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	font-weight: 500;
+	font-size: clamp(14px, 4vw, 20px);
+	color: #fff;
+}
+
+@media all and (max-width: 767px) {
+	.cardcomponent {
+		height: 253px;
+	}
+}

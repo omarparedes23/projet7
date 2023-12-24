@@ -1,0 +1,48 @@
+.accueil {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-radius: 25px;
+	margin-top: 43px;
+	margin-left: 7%;
+	margin-right: 7%;
+	padding-left: 4%;
+	padding-right: 4%;
+	width: 86%;
+	background-color: #f7f7f7;
+}
+.navlink {
+	margin-top: 50px;
+	position: relative;
+	width: 30%;
+	height: 340px;
+	padding: 0;
+	border-radius: 10px;
+}
+/* ******* Tablette ******* */
+@media all and (min-width: 768px) and (max-width: 991px) {
+	.navlink {
+		width: 47%;
+	}
+}
+/* ******* Mobile ******* */
+@media all and (max-width: 767px) {
+	.accueil {
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		padding-left: 0px;
+		padding-right: 0px;
+		border-radius: 10px;
+		margin-top: 2px;
+		background-color: white;
+		margin-bottom: 0px;
+	}
+	.navlink {
+		width: 100%;
+		height: 255px;
+		margin-top: 20px;
+	}
+}

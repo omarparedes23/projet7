@@ -1,0 +1,159 @@
+.details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top: 30px;
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+	color: #ff6060;
+}
+
+.details_title {
+	display: flex;
+	flex-direction: column;
+	font-weight: 500;
+	gap: 10px;
+}
+
+.imagetitle {
+	font-size: 28px;
+}
+
+.imagelocation {
+	font-size: 14px;
+}
+
+.details_title button {
+	display: inline;
+	padding: 5px 15px;
+	margin-right: 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+}
+
+.details_title div {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.details_host {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.details_host_info {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 0 10px;
+}
+
+.details_host_titre {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+}
+
+.details_host img {
+	width: 64px;
+	height: 64px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 0;
+}
+
+.etoilesliste {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+.etoilesliste img {
+	width: 24.75px;
+	height: 24px;
+}
+
+.collapse_logement {
+	margin-top: 24px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+
+	margin-left: 7%;
+	margin-right: 7%;
+	width: 86%;
+}
+
+.collapse_description {
+	width: 47%;
+}
+
+.collapse_equipment {
+	width: 47%;
+}
+
+.collapse_equipment li {
+	list-style: none;
+}
+
+@media screen and (max-width: 650px) {
+	.collapse_logement {
+		flex-direction: column;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-top: 15px;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		gap: 10px;
+	}
+
+	.details_host {
+		width: 100%;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.imagetitle {
+		font-size: 18px;
+	}
+
+	.imagelocation {
+		font-size: 14px;
+	}
+
+	.etoilesliste img {
+		width: 13.41px;
+		height: 13px;
+	}
+
+	.collapse_description {
+		width: 100%;
+	}
+
+	.collapse_equipment {
+		margin-top: 20px;
+		width: 100%;
+	}
+}
